@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/dist/
+
+# Built command binaries (go build .)
+/httpfromtcp
+/tcp2http
+/httpserver
+/tcplistener
+/udpsender
+
+# Go workspace / module leftovers
+go.work
+go.work.sum
+vendor/
+
+# Test and coverage artifacts
+*.coverprofile
+coverage.out
+coverage.html
+profile.out
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
